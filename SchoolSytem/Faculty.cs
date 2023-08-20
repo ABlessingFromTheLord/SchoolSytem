@@ -1,5 +1,4 @@
-﻿using SchoolSytem.Interfaces;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,22 +9,25 @@ namespace SchoolSytem
     /// <summary>
     /// This class is a representation of a faculty
     /// </summary>
-    public class Faculty : IFaculty
+    public class Faculty 
     {
         #region Fields
 
         #endregion
 
         #region Constructor
-        public Faculty() { }
+        public Faculty()
+        {
+
+        }
         #endregion
 
         #region Properties
-        public string FacultyName { get; set; }
-        public int SubjectsOffered { get; set; }
-        public string ChairPersonName { get; set; }
-        public string DeanName { get; set; }
-        public string Member { get; set; }
+        public string? FacultyName { get; set; }
+        public int? SubjectsOffered { get; set; }
+        public string? ChairPersonName { get; set; }
+        public string? DeanName { get; set; }
+        public string? Member { get; set; }
         #endregion
 
         #region Methods

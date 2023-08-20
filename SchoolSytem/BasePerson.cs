@@ -1,5 +1,4 @@
-﻿using SchoolSytem.Interfaces;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,7 +15,7 @@ namespace SchoolSytem
         private string _FirstName;
         private string _LastName;
         private string _Gender;
-        private int? _Age;
+        private int _Age;
         private string _Id;
 
             
@@ -34,12 +33,12 @@ namespace SchoolSytem
         #endregion
 
         #region Properties
-        public string Id { get; set; }
-        public string Role { get; set; }
-        public string Address { get; set; }
-        public string Telefon { get; set; }
-        public string FacultyName { get; set; }
-        public int Subjects { get; set; }
+        public string? Id { get; set; }
+        public string? Role { get; set; }
+        public string? Address { get; set; }
+        public string? Telefon { get; set; }
+        public string? FacultyName { get; set; }
+        public int? Subjects { get; set; }
         #endregion
 
         #region Methods
