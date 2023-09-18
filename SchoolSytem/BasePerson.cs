@@ -33,12 +33,12 @@ namespace SchoolSytem
         #endregion
 
         #region Properties
-        public string? Id { get; set; }
-        public string? Role { get; set; }
-        public string? Address { get; set; }
-        public string? Telefon { get; set; }
-        public string? FacultyName { get; set; }
-        public int? Subjects { get; set; }
+        public string Id { get; set; }
+        public string Role { get; set; }
+        public string Address { get; set; }
+        public string Telefon { get; set; }
+        public string FacultyName { get; set; }
+        public int Subjects { get; set; }
         #endregion
 
         #region Methods

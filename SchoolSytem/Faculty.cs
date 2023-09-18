@@ -23,11 +23,11 @@ namespace SchoolSytem
         #endregion
 
         #region Properties
-        public string? FacultyName { get; set; }
-        public int? SubjectsOffered { get; set; }
-        public string? ChairPersonName { get; set; }
-        public string? DeanName { get; set; }
-        public string? Member { get; set; }
+        public string FacultyName { get; set; }
+        public int SubjectsOffered { get; set; }
+        public string ChairPersonName { get; set; }
+        public string DeanName { get; set; }
+        public string Member { get; set; }
         #endregion
 
         #region Methods
